@@ -1,0 +1,23 @@
+.wrapper {
+    display: grid;
+    grid-template-areas:
+        "itm1 itm1"
+        "itm2 itm3";
+}
+
+.item1 {
+    grid-area: itm1;
+}
+
+.item2 {
+    grid-area: itm2;
+}
+
+.item3{
+    grid-area: itm3;
+}
+
+.item1, .item2, .item3 {
+    border: 1px solid;
+    padding: 20px;
+}
